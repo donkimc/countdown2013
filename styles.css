@@ -3,6 +3,8 @@ body {
 }
 
 canvas {
+  position: absolute;
+  opacity: 1;
   border: 1px solid black;
 }
 
@@ -14,11 +16,29 @@ canvas {
 
 body {
   /* background-color: #0F4C75; */
-  background-color: black;
+  /* background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   min-height: 50vh;
+  align-items: center; */
+  /* position: absolute; */
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  
+}
+
+.content {
+  position: absolute;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* min-height: 50vh; */
+  max-height: 100%;
+  max-width: 100%;
+  z-index: 1;
   align-items: center;
 }
 
@@ -27,6 +47,7 @@ body {
   color: white;
   text-align: center;
   font-family: 'ubuntu';
+  margin-top: 50px;
 }
 
 .timer {

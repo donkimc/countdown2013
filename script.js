@@ -295,7 +295,7 @@ function animate() {
   c.save();
   c.fillStyle = "rgba(255, 255, 255, 1)";
   c.font = "30px Roboto";
-  c.fillText("FireWorks 2023", 50, 50);
+//   c.fillText("FireWorks 2023", 50, 50);
   c.restore();
   c.fillStyle = "rgba(18, 18, 18, 0.2)";
   c.fillRect(0, 0, canvas.width, canvas.height);
